@@ -19,4 +19,4 @@ int main(void)
 	printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
 
 	return (0);
-}                                           
+}
