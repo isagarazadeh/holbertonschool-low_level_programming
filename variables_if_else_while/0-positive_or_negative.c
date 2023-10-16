@@ -6,9 +6,11 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+	/*cjheui*/
 	int n;
-
+	/*de*/
 	srand(time(0));
+	/*ck*/
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
