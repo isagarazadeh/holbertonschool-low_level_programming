@@ -10,22 +10,22 @@ int main(void)
        the range [a - z] 
     */
 
-    char alphabet = 'a';
+	char alphabet = 'a';
 
      /* check to see if the current value of your variable is less than 
          or the same as the last member (z) of the given range. While 
          the value is less, go ahead and print the value 
       */
 
-    while (alphabet <= 'z')
-    {
+	while (alphabet <= 'z')
+	{
         // print the value of the variable 
-        putchar(alphabet);
+	putchar(alphabet);
 
         // increment the variable (ie: a becomes b)
-        alphabet++;
-    }
+	alphabet++;
+	}
 
-    putchar('\n');
-    return (0);
+	putchar('\n');
+	return (0);
 }
