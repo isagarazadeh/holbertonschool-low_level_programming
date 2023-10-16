@@ -10,13 +10,13 @@
  */
 int main(void)
 {
-	int n;
+	int n, y;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	y = x % 10;
+	y = n % 10;
 	if(y > 5)
 	{
 		printf("%d and is greater than 5", y);
