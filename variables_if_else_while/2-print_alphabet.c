@@ -26,6 +26,6 @@ int main(void)
 	alphabet++;
 	}
 
-	putchar('abcdefghijklmnopqrstuvwxyz');
+	putchar('\n');
 	return (0);
 }
