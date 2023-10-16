@@ -19,15 +19,15 @@ int main(void)
 	y = n % 10;
 	if(y > 5)
 	{
-		printf("%d Last digit of 98 is 8 and is greater than 5", y);
+		printf("Last digit of 98 is 8 and is greater than 5");
 	}
 	else if(y ==0)
 	{
-		printf("%d Last digit of 980 is 0 and is 0", y);
+		printf("Last digit of 980 is 0 and is 0");
 	}
 	else
 	{
-		printf("%d Last digit of -98 is -8 and is less than 6 and not 0", y);
+		printf("Last digit of -98 is -8 and is less than 6 and not 0");
 	}
 	return (0);
 }
