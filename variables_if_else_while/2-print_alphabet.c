@@ -21,7 +21,7 @@ int main(void)
 	{
 	/* print the value of the variable 
 	putchar(alphabet);*/
-
+	putchar(n);
 	/* increment the variable (ie: a becomes b)*/
 	alphabet++;
 	}
