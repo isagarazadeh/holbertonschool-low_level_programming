@@ -7,10 +7,10 @@
 int main(void)
 {
 
-        char alphabet = 'a';
+	char alphabet = 'a';
 
-        while (alphabet <= 'z')
-        {
+	while (alphabet <= 'z')
+	{
 		if(alphabet == 'q' || alphabet == 'e')
 		{
 			alphabet++;
@@ -18,11 +18,11 @@ int main(void)
 		}
 		else
 		{
-        		putchar(alphabet);
-        		alphabet++;
+			putchar(alphabet);
+			alphabet++;
 		}
 	}
 
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
