@@ -1,4 +1,8 @@
 #include"main.h"
+/**
+ * print_alphabet_x10 - prints every character in alphabet.
+ * Return: void.
+ */
 void print_alphabet_x10(void)
 {
 	char n;
