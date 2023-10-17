@@ -1,7 +1,7 @@
 #include"main.h"
 /**
  * print_sign - checks for lowercase character.
- * @c:  char.
+ * @n:  int.
  * Return: void.
  */
 int print_sign(int n)
