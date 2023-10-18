@@ -1,7 +1,7 @@
 #include"main.h"
 /**
  * jack_bauer - checks for lowercase character.
- * @c:  int.
+ * @void:  int.
  * Return: void.
  */
 void jack_bauer(void)
