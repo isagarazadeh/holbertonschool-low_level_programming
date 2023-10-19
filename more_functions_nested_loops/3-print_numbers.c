@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * print_numbers - check the code
- *@i: int.
  * Return: Always 0.
  */
 void print_numbers(void)
