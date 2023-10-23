@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
+ * _strlen - check the code
  *@s: char.
  * Return: len.
  */
