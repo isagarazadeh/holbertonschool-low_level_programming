@@ -3,7 +3,7 @@
 /**
  * main - check the code
  *@s: char.
- * Return: Always len.
+ * Return: len.
  */
 int _strlen(char *s)
 {
