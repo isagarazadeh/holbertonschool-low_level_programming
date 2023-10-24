@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strcpy - check the code
  *@dest: char.
@@ -7,19 +8,13 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int c = 0;
+	int l;
+	l = strlen(src);
 
-	while (*src != '\0')
+	while (l >= 0)
 	{
-		*dest = *src;
-		src++;
-		dest++;
-		c++;
-	}
-	while (c != 0)
-	{
-		dest--;
-		c--;
+		*(dest + l) = *(src + l);
+		l--;
 	}
 	return (dest);
 }
