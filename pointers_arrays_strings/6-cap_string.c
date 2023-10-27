@@ -3,7 +3,7 @@
  * cap_string - check the code
  * @s: variable
  * Return: Always 0.
- * */
+ */
 char *cap_string(char *s)
 {
 	int i = 0;
