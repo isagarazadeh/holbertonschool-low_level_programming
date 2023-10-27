@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * cap_string - check the code
  * @s: variable
  * Return: Always 0.
