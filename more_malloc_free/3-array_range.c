@@ -21,6 +21,7 @@ int *array_range(int min, int max)
 	for (i = min; i<= max; i++)
 	{
 		result[j] = i;
+		j++;
 	}
 	return (result);
 }
