@@ -4,8 +4,7 @@
  *array_range - rangeofarray.
  *@min: int.
  *@max: int.
- *return: result.
- *
+ *Return: result.
  */
 int *array_range(int min, int max)
 {
