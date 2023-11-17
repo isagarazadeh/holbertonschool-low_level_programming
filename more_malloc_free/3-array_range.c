@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <string.h>
-/*
- *array_range - rangeofarray.
- *@min: int.
- *@max: int.
- *Return: result.
+/**
+ * array_range - array.
+ * @min: minimum.
+ * @max: maximum.
+ * Return: pointer.
  */
 int *array_range(int min, int max)
 {
