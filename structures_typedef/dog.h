@@ -4,7 +4,7 @@
  * struct - structofany
  * @name: char.
  * @age: float.
- * @age: char.
+ * @owner: char.
  */
 struct dog
 {
