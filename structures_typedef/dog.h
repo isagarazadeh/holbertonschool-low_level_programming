@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.ho>
+#include <stdlib.h>
 struct dog
 {
 	char *name;
