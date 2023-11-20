@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef dog_H
+#define dog_H
 struct dog
 {
 	char *name;
@@ -7,3 +7,4 @@ struct dog
 	char *owner;
     
 };
+#endif
