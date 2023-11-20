@@ -1,7 +1,7 @@
 #ifndef dog_H
 #define dog_H
 /**
- * dog - structofany
+ * struct dog - structofany
  * @name: char.
  * @age: float.
  * @owner: char.
