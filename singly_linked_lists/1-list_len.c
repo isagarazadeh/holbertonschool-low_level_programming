@@ -9,15 +9,10 @@
  */
 size_t list_len(const list_t *h)
 {
-	unsigned int count;
+	unsigned int count = 0;
 
-	count = strlen(h->str);
 	while (h != NULL)
 	{
-		if (h->str != NULL)
-		{
-			printf("%d", count);
-		}
 		h = h->next;
 		count++;
 	}
